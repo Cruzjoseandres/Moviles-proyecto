@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AirBnbAdministrador",
+    "slug": "AirBnbAdministrador",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAg6KIJ_9DqiKMRHOhg8V8ZxOmDlb5szbw"
+        }
+      },
+      "package": "com.anonymous.AirBnbAdministrador"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
